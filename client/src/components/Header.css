@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+.header__left {
+    display: flex;
+    align-items: center;
+}
+.header__userName {
+    margin-left: 10px;
+}
+.header__userName > h3 {
+    margin: 0;
+    font-weight:bolder;
+    padding-left: 10px;
+    color: #1976D2;
+}
+.header__userName > p {
+    margin: 0;
+    font-weight: bold;
+    color: #1976D2;
+}
+.header__right {
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+}
+.header__rightMenuIcon {
+    display: none !important;
+}
+
+@media screen and (max-width: 750px) {
+    .header__rightMenuIcon {
+        display: inline !important;
+    }
+    .header__rightButtons {
+        display: none !important;
+    }
+
+  }
+
