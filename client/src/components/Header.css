@@ -21,7 +21,7 @@
 }
 .header__userName > p {
     margin: 0;
-    font-weight: bold;
+    font-weight: 400;
     color: #1976D2;
 }
 .header__right {

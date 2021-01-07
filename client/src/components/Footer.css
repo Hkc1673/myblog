@@ -1,0 +1,13 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    border-top: 1px solid #1976D2;
+    padding: 20px;
+    background-color: #EFF4FB;
+}
+.footer > .MuiSvgIcon-root {
+    padding-left: 20px;
+}
