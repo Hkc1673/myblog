@@ -1,0 +1,34 @@
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 800px;
+}
+.description__footer {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-top: 50px;
+}
+.description__footer img{
+  width: 150px;
+  height: 135px;
+  padding-left: 50px;
+}
+.description__footer p{
+   margin-left: 70px;
+   font-weight:900;
+   color: gray;
+  }
+  @media screen and (max-width: 750px) {
+    .description {
+        height: 1000px;
+    }
+    .description__footer {
+        flex-direction: column;
+        margin-top: 20;
+    }
+
+  }
