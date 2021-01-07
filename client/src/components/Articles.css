@@ -1,0 +1,20 @@
+.articles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+}
+.articles__container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+@media screen and (max-width: 750px) {
+    .articles__container {
+    flex-direction: column;
+    }
+
+  }

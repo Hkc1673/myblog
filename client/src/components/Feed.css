@@ -7,6 +7,11 @@
     width: 100%;
     height: 800px;
 }
+.feed__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .feed__img > img{
     width: 300px;
     height: auto;
