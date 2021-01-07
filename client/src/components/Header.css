@@ -33,6 +33,7 @@
     display: none !important;
 }
 
+
 @media screen and (max-width: 750px) {
     .header__rightMenuIcon {
         display: inline !important;
@@ -40,6 +41,7 @@
     .header__rightButtons {
         display: none !important;
     }
+    
 
   }
 

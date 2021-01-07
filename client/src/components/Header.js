@@ -25,7 +25,7 @@ function Header() {
                 </div>
 
                 <IconButton className="header__rightMenuIcon">
-                    <MenuIcon />
+                    <MenuIcon color="primary" fontSize="large"/>
                 </IconButton>
 
             </div>
