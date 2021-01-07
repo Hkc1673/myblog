@@ -1,0 +1,20 @@
+.feed {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0;
+    background-color: #EFF4FB;
+    width: 100%;
+    height: 800px;
+}
+.feed__img > img{
+    width: 300px;
+    height: auto;
+    border-radius: 150px;
+}
+@media screen and (max-width: 750px) {
+    .feed {
+        flex-direction: column;
+    }
+
+  }
